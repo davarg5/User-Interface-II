@@ -1,1 +1,150 @@
 /* Add CSS styling here */
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+    border: 1px black;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Grandstander', cursive;
+}
+
+header {
+    background-color: turquoise;
+    border: 10px solid turquoise;
+}
+
+h1 {
+    text-align: center;
+    padding: 3% 0% 2% 0%;
+    font-size: 30px;
+    font-family: 'Grandstander', cursive;
+}
+
+.p1 {
+    text-align: center;
+    margin: 0% 0% 3% 0%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0% 0% 3% 0%;
+}
+
+.specimg {
+    text-align: center;
+    width: 16%;
+    border-radius: 50%;
+    margin: 1% 42%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 0% 0% 3% 0%;
+}
+
+nav a {
+    border: 1px solid black;
+    padding: 1% 2%;
+    background-color:pink;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color:white;
+    color: pink;
+    transition:1s;
+}
+
+.img1 {
+    width: 100%;
+    overflow: hidden;
+    border: 5px solid turquoise;
+    
+}
+
+
+.sec3 {
+    margin: 0% 0% 0% 0%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://lh3.googleusercontent.com/proxy/Ce47zey--4QKqzAnpuLHDRA-779o30obexyre5jviKGkHeyytlA1NqYU_N0ADOK-cq0vLHwxg8zBQtGSBZ9QPk66WGda-6UVs7d0ohrpJmObLKGnkg);
+    border: 10px solid turquoise;
+}
+
+.p2 {
+    border: 1px solid lightcoral;
+    width: 20%;
+    background-color: #4F92AE;
+    color: white;
+    text-align: center;
+    padding: 4% 0% 0% 0%;
+}
+
+.img2 {
+    width: 20%;
+}
+
+.img3 {
+    width: 20%;
+}
+
+.img4 {
+    width: 20%;
+}
+
+.last {
+    background-color:gray;
+    padding: 0.5%;
+}
+
+footer {
+    margin: 0% auto;
+}
+
+button {
+    text-align: center;
+    font-family: 'Grandstander', cursive;
+    border: 1px solid black;
+    padding: 1%;
+    background-color: white;
+    color: hotpink;
+    display: block;
+    margin:  3% auto;
+}
+
+button:hover{
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+  }
+
+img:hover {
+    opacity: 0.5;
+}
